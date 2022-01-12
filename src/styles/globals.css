@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 3px solid #ff69e8;
+  border-radius: 10px;
+  background: linear-gradient(to right, #480ca8, #6d00a5, #8900a2, #a0009e, #b5009a);
+}
+
+@keyframes glow-button {
+  0% {
+      box-shadow: 0 0 5px rgba(247, 37, 133, 0.20);
+  }
+
+  100% {
+      box-shadow: 0 0 20px rgba(247, 37, 133, 0.40);
+  }
+}
+
+button:hover {
+  background-position: right left;
+  background: linear-gradient(to left, #480ca8, #6d00a5, #8900a2, #a0009e, #b5009a);
+  animation: glow-button 800ms ease-out infinite alternate;
+  -webkit-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+button p {
+  font-size: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fafafa;
+}

@@ -53,6 +53,4 @@ Learn more about Next.js at here:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - 
 
-Thank you!
-# my-test-online-store
-# my-test-online-store
+Thank you!# My-Test-Online-Store

@@ -1,14 +1,16 @@
-[
-  {
-    "id": "products-1",
-    "name":  "Exampe Product 1",
-    "description": "Lorem Ipsum Dolor Sit Amet.",
-    "custom1_name": "License",
-    "custom1_options": "Standart[+0.00]|Exclusive[+70.00]|Enterprise[+125.00]",
-    "custom1_options_name": "Standart, Exclusive, Enterprise",
-    "fileGuid": "95829ce4-dfca-45c4-b74a-ca6fa97f52a4",
-    "image": "/public/image/1.gif",
-    "url": "../pages/api/snipcart/snipchart-item-product-1.json",
-    "price": 41.50
-  }
-]
+import { NextApiRequest, NextApiResponse } from 'next';
+
+export default (req: NextApiRequest, res: NextApiResponse) => {
+  res.status(200).json({ 
+    id: "products-1",
+    name: "Exampe Product 1",
+    description: "Lorem Ipsum Dolor Sit Amet.",
+    custom1_name: "License",
+    custom1_options: "Standart[+0.00]|Exclusive[+70.00]|Enterprise[+125.00]",
+    custom1_options_name: "Standart, Exclusive, Enterprise",
+    fileGuid: "95829ce4-dfca-45c4-b74a-ca6fa97f52a4",
+    image: "/public/image/1.gif",
+    url: "../pages/api/snipcart/snipchart-item-product-1.json",
+    price: 41.50
+    });
+};

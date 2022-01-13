@@ -122,9 +122,6 @@ export default function Home() {
       <footer className={styles.footer}>
         <h5>
           Built with ❤️ and ☕ powered by <a href="https://nextjs.org">Next.js</a> and <a href="https://snipcart.com">Snipcart</a>{' '}
-          <span className={styles.logo}>
-            <Image src="/public/img/Next.js.svg" alt="Next.js Logo" width={72} height={16} />
-          </span>
         </h5>
       </footer>
     </div>

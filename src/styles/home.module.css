@@ -12,6 +12,10 @@
   padding: 4rem 0;
 }
 
+.main h2  {
+  text-align: center;
+}
+
 .title a {
   background: linear-gradient(to right, #480ca8, #6d00a5, #8900a2, #a0009e, #b5009a);
   -webkit-background-clip: text;
